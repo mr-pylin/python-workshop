@@ -68,7 +68,7 @@ pip install -r requirements.txt
    - Open the root folder with **VS Code**
       - **Windows/Linux**: `Ctrl + K` followed by `Ctrl + O`
       - **macOS**: `Cmd + K` followed by `Cmd + O`
-   - Open `.ipynb` files using [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) extension integrated with **VS Code**
+   - Open `.ipynb` files using [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) integrated with **VS Code**
    - Allow **VS Code** to install any recommended dependencies for working with Jupyter Notebooks.
    - Note: Jupyter is integrated with both **VS Code** & **[Google Colab](https://colab.research.google.com/)**
 
@@ -108,4 +108,10 @@ Any mistakes, suggestions, or contributions? Feel free to reach out to me at:
 I look forward to connecting with you! 🏃‍♂️
 
 # 📄 License
-This repository is licensed under the **[MIT License](./LICENSE)**, except for the contents in the [./assets/images/SVGs/](./assets/images/SVGs/) path, which are licensed under the **[CC BY-ND 4.0](./assets/images/SVGs/LICENSE)**.
+This project is licensed under the **[Apache License 2.0](./LICENSE)**.  
+You are free to use, modify, and distribute this code, but you must include copies of both the [**LICENSE**](./LICENSE) and [**NOTICE**](./NOTICE) files in any distribution of your work.
+
+## ✍️ Additional Licensing Information
+- **SVG Images**:
+   - The SVG images located in the [./assets/images/svgs/](./assets/images/svgs/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/svgs/LICENSE)**.
+   - Note: This license restricts derivative works, meaning you may share these images but cannot modify them.
