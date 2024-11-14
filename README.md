@@ -2,50 +2,59 @@
 Comprehensive Python Workshop: Mastering Fundamentals and Advanced Techniques
 
 ## 📖 Table of Contents
-0. **[Introduction to Python](./codes/00_introduction-to-python.ipynb)**  
-   A beginner-friendly introduction to Python, its features, and basic syntax.
-0. **[Data Structures](./codes/01_data-structures.ipynb)**  
-   Explore essential data structures like `int`, `float`, `list`, `tuple`, `dictionary`, and `set`.
-0. **[Index and Slice](./codes/02_index-&-slice.ipynb)**  
-   Learn how to access and manipulate elements of sequences using indexing and slicing.
-0. **[Operators and Operands](./codes/03_operator-&-operand.ipynb)**  
-   Study various operators (arithmetic, comparison, logical, etc.) and how they work with operands.
-0. **[Type Conversions](./codes/04_type-conversion.ipynb)**  
-   Understand how to convert data types in Python with explicit and implicit conversions.
-0. **[Conditional Statements](./codes/05_conditional-statements.ipynb)**  
-   Learn about `if-elif-else` and `match-case` statements for controlling the flow of your programs.
-0. **[Loops](./codes/06_loops.ipynb)**  
-   Master loops (`for`, `while`) to iterate over sequences and perform repeated tasks.
-0. **[Functions](./codes/07_functions.ipynb)**  
-   Understand how to define and use functions, including parameters and return values.
-0. **[Built-In Functions](./codes/08_built-in-functions.ipynb)**  
-   Explore Python's powerful built-in functions and how to leverage them in your programs.
-0. **[Namespaces and Scopes](./codes/09_namespace-&-scope.ipynb)**  
-   Learn about namespaces and scope resolution to avoid name conflicts in your code.
-0. **[Anonymous Functions (Lambda)](./codes/10_lambda.ipynb)**  
-   Discover the usage of `lambda` expressions for creating small, anonymous functions.
-0. **[Pack and Unpack Data](./codes/11_pack-unpack.ipynb)**  
-   Learn how to pack multiple values into a variable and unpack them in Python.
-0. **[Type Hints and Docstrings](./codes/12_type-hints-and-docstrings.ipynb)**  
-   Understand how to improve code readability with type hints and document your functions with docstrings.
-0. **[Dependencies](./codes/13_dependencies.ipynb)**  
-   Learn how to manage and install dependencies using `pip` and `requirements.txt` and use them in your code.
-0. **[Comprehensions](./codes/14_comprehensions.ipynb)**  
-   Master `list`, `set`, `dictionary`, and `generator` comprehensions for concise and readable code.
-0. **[Introduction to Object-Oriented Programming (OOP)](./codes/15_introduction-to-oop.ipynb)**  
-   Get introduced to the basic concepts of object-oriented programming in Python.
-0. **[Closures and Decorators](./codes/16_closure-decorator.ipynb)**  
-   Learn about closures and how to use decorators for enhancing functions.
-0. **[Object-Oriented Programming Concepts](./codes/17_oop-concepts.ipynb)**  
-   Explore core OOP concepts such as *encapsulation*, *inheritance*, *polymorphism*, and *abstraction*.
-0. **[Context Managers](./codes/18_context-managers.ipynb)**  
-   Learn to manage resources efficiently using `with` statements and defining custom context managers.
-0. **[Special Methods](./codes/19_special-methods.ipynb)**  
-   Discover Python's dunder (double underscore) methods for creating custom behavior in your classes.
-0. **[Errors and Exceptions](./codes/20_errors-and-exceptions.ipynb)**  
-   Learn about handling errors and exceptions to make your code more robust.
-0. **[Meta Classes](./codes/21_meta-classes.ipynb)**  
-   Dive into metaclasses to understand how classes in Python are created and customized.
+### Main Notebooks
+   1. [**Introduction to Python**](./codes/01_introduction-to-python.ipynb)  
+      A beginner-friendly introduction to Python, its features, and basic syntax.
+   1. [**Data Structures**](./codes/02_data-structures.ipynb)  
+      Explore essential data structures like `int`, `float`, `list`, `tuple`, `dictionary`, and `set`.
+   1. [**Index and Slice**](./codes/03_index-&-slice.ipynb)  
+      Learn how to access and manipulate elements of sequences using indexing and slicing.
+   1. [**Operators and Operands**](./codes/04_operator-&-operand.ipynb)  
+      Study various operators (arithmetic, comparison, logical, etc.) and how they work with operands.
+   1. [**Type Conversions**](./codes/05_type-conversion.ipynb)  
+      Understand how to convert data types in Python with explicit and implicit conversions.
+   1. [**Conditional Statements**](./codes/06_conditional-statements.ipynb)  
+      Learn about `if-elif-else` and `match-case` statements for controlling the flow of your programs.
+   1. [**Loops**](./codes/07_loops.ipynb)  
+      Master loops (`for`, `while`) to iterate over sequences and perform repeated tasks.
+   1. [**Functions**](./codes/08_functions.ipynb)  
+      Understand how to define and use functions, including parameters and return values.
+   1. [**Built-In Functions**](./codes/09_built-in-functions.ipynb)  
+      Explore Python's powerful built-in functions and how to leverage them in your programs.
+   1. [**Namespaces and Scopes**](./codes/10_namespace-&-scope.ipynb)  
+      Learn about namespaces and scope resolution to avoid name conflicts in your code.
+   1. [**Anonymous Functions (Lambda)**](./codes/11_lambda.ipynb)  
+      Discover the usage of `lambda` expressions for creating small, anonymous functions.
+   1. [**Pack and Unpack Data**](./codes/12_pack-unpack.ipynb)  
+      Learn how to pack multiple values into a variable and unpack them in Python.
+   1. [**Type Hints and Docstrings**](./codes/13_type-hints-and-docstrings.ipynb)  
+      Understand how to improve code readability with type hints and document your functions with docstrings.
+   1. [**Dependencies**](./codes/14_dependencies.ipynb)  
+      Learn how to manage and install dependencies using `pip` and `requirements.txt` and use them in your code.
+   1. [**Comprehensions**](./codes/15_comprehensions.ipynb)  
+      Master `list`, `set`, `dictionary`, and `generator` comprehensions for concise and readable code.
+   1. [**Introduction to Object-Oriented Programming (OOP)**](./codes/16_introduction-to-oop.ipynb)  
+      Get introduced to the basic concepts of object-oriented programming in Python.
+   1. [**Closures and Decorators**](./codes/17_closure-decorator.ipynb)  
+      Learn about closures and how to use decorators for enhancing functions.
+   1. [**Object-Oriented Programming Concepts**](./codes/18_oop-concepts.ipynb)  
+      Explore core OOP concepts such as *encapsulation*, *inheritance*, *polymorphism*, and *abstraction*.
+   1. [**Context Managers**](./codes/19_context-managers.ipynb)  
+      Learn to manage resources efficiently using `with` statements and defining custom context managers.
+   1. [**Special Methods**](./codes/20_special-methods.ipynb)  
+      Discover Python's dunder (double underscore) methods for creating custom behavior in your classes.
+   1. [**Errors and Exceptions**](./codes/21_errors-and-exceptions.ipynb)  
+      Learn about handling errors and exceptions to make your code more robust.
+   1. [**Meta Classes**](./codes/22_meta-classes.ipynb)  
+      Dive into metaclasses to understand how classes in Python are created and customized.
+
+### Built-in Methods
+   1. [**Numbers Methods**](./codes/builtins/list-methods.ipynb)
+   1. [**String Methods**](./codes/builtins/string-methods.ipynb)
+   1. [**List Methods**](./codes/builtins/list-methods.ipynb)
+   1. [**Tuple Methods**](./codes/builtins/tuple-methods.ipynb)
+   1. [**Set Methods**](./codes/builtins/set-methods.ipynb)
+   1. [**Dictionary Methods**](./codes/builtins/dictionary-methods.ipynb)
 
 ## 📋 Prerequisites
    - **Basic Computer Skills**
