@@ -67,12 +67,6 @@ Comprehensive Python Workshop: Mastering Fundamentals and Advanced Techniques
 # ⚙️ Setup
 This project was developed using Python `v3.12.3`. If you encounter issues running the specified version of dependencies, consider using this specific Python version.
 
-## 📦 Installing Dependencies
-You can install all dependencies listed in `requirements.txt` using [pip](https://pip.pypa.io/en/stable/installation/).
-```bash
-pip install -r requirements.txt
-```
-
 ## 🛠️ Usage Instructions
    - Open the root folder with **VS Code**
       - **Windows/Linux**: `Ctrl + K` followed by `Ctrl + O`
