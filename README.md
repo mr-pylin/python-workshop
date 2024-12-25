@@ -14,61 +14,61 @@ Comprehensive **Python** Workshop: **Mastering** Fundamentals and Advanced Techn
 
 ### 📖 Main Notebooks
 
-1. [**Introduction to Python**](./codes/01-introduction-to-python.ipynb)  
+1. [**Introduction to Python**](./code/01-introduction-to-python.ipynb)  
 A beginner-friendly introduction to Python, its features, and basic syntax.
-1. [**Data Structures**](./codes/02-data-structures.ipynb)  
+1. [**Data Structures**](./code/02-data-structures.ipynb)  
 Explore essential data structures like `int`, `float`, `list`, `tuple`, `dictionary`, and `set`.
-1. [**Index and Slice**](./codes/03-index-&-slice.ipynb)  
+1. [**Index and Slice**](./code/03-index-&-slice.ipynb)  
 Learn how to access and manipulate elements of sequences using indexing and slicing.
-1. [**Operators and Operands**](./codes/04-operator-&-operand.ipynb)  
+1. [**Operators and Operands**](./code/04-operator-&-operand.ipynb)  
 Study various operators (arithmetic, comparison, logical, etc.) and how they work with operands.
-1. [**Type Conversions**](./codes/05-type-conversion.ipynb)  
+1. [**Type Conversions**](./code/05-type-conversion.ipynb)  
 Understand how to convert data types in Python with explicit and implicit conversions.
-1. [**Conditional Statements**](./codes/06-conditional-statements.ipynb)  
+1. [**Conditional Statements**](./code/06-conditional-statements.ipynb)  
 Learn about `if-elif-else` and `match-case` statements for controlling the flow of your programs.
-1. [**Loops**](./codes/07-loops.ipynb)  
+1. [**Loops**](./code/07-loops.ipynb)  
 Master loops (`for`, `while`) to iterate over sequences and perform repeated tasks.
-1. [**Functions**](./codes/08-functions.ipynb)  
+1. [**Functions**](./code/08-functions.ipynb)  
 Understand how to define and use functions, including parameters and return values.
-1. [**Built-In Functions**](./codes/09-built-in-functions.ipynb)  
+1. [**Built-In Functions**](./code/09-built-in-functions.ipynb)  
 Explore Python's powerful built-in functions and how to leverage them in your programs.
-1. [**Namespaces and Scopes**](./codes/10-namespace-&-scope.ipynb)  
+1. [**Namespaces and Scopes**](./code/10-namespace-&-scope.ipynb)  
 Learn about namespaces and scope resolution to avoid name conflicts in your code.
-1. [**Anonymous Functions (Lambda)**](./codes/11-anonymous-functions.ipynb)  
+1. [**Anonymous Functions (Lambda)**](./code/11-anonymous-functions.ipynb)  
 Discover the usage of `lambda` expressions for creating small, anonymous functions.
-1. [**Pack and Unpack Data**](./codes/12-pack-unpack.ipynb)  
+1. [**Pack and Unpack Data**](./code/12-pack-unpack.ipynb)  
 Learn how to pack multiple values into a variable and unpack them in Python.
-1. [**Type Hints and Docstrings**](./codes/13-type-hints-and-docstrings.ipynb)  
+1. [**Type Hints and Docstrings**](./code/13-type-hints-and-docstrings.ipynb)  
 Understand how to improve code readability with type hints and document your functions with docstrings.
-1. [**Dependencies**](./codes/14-dependencies.ipynb)  
+1. [**Dependencies**](./code/14-dependencies.ipynb)  
 Learn how to manage and install dependencies using `pip` and `requirements.txt` and use them in your code.
-1. [**Comprehensions**](./codes/15-comprehensions.ipynb)  
+1. [**Comprehensions**](./code/15-comprehensions.ipynb)  
 Master `list`, `set`, `dictionary`, and `generator` comprehensions for concise and readable code.
-1. [**Introduction to Object-Oriented Programming (OOP)**](./codes/16-introduction-to-oop.ipynb)  
+1. [**Introduction to Object-Oriented Programming (OOP)**](./code/16-introduction-to-oop.ipynb)  
 Get introduced to the basic concepts of object-oriented programming in Python.
-1. [**Closures and Decorators**](./codes/17-closure-decorator.ipynb)  
+1. [**Closures and Decorators**](./code/17-closure-decorator.ipynb)  
 Learn about closures and how to use decorators for enhancing functions.
-1. [**Object-Oriented Programming Concepts**](./codes/18-oop-concepts.ipynb)  
+1. [**Object-Oriented Programming Concepts**](./code/18-oop-concepts.ipynb)  
 Explore core OOP concepts such as *encapsulation*, *inheritance*, *polymorphism*, and *abstraction*.
-1. [**Context Managers**](./codes/19-context-managers.ipynb)  
+1. [**Context Managers**](./code/19-context-managers.ipynb)  
 Learn to manage resources efficiently using `with` statements and defining custom context managers.
-1. [**Special Methods**](./codes/20-special-methods.ipynb)  
+1. [**Special Methods**](./code/20-special-methods.ipynb)  
 Discover Python's dunder (double underscore) methods for creating custom behavior in your classes.
-1. [**Errors and Exceptions**](./codes/21-errors-and-exceptions.ipynb)  
+1. [**Errors and Exceptions**](./code/21-errors-and-exceptions.ipynb)  
 Learn about handling errors and exceptions to make your code more robust.
-1. [**Meta Classes**](./codes/22-meta-classes.ipynb)  
+1. [**Meta Classes**](./code/22-meta-classes.ipynb)  
 Dive into metaclasses to understand how classes in Python are created and customized.
-1. [**Singleton Design**](./codes/23-singleton-design.ipynb)  
+1. [**Singleton Design**](./code/23-singleton-design.ipynb)  
 Understand the Singleton Design Pattern for ensuring a class has only one instance, with examples in Python.
 
 ### 📖 Built-in Methods
 
-- [**Numbers Methods**](./codes/builtins/list-methods.ipynb)
-- [**String Methods**](./codes/builtins/string-methods.ipynb)
-- [**List Methods**](./codes/builtins/list-methods.ipynb)
-- [**Tuple Methods**](./codes/builtins/tuple-methods.ipynb)
-- [**Set Methods**](./codes/builtins/set-methods.ipynb)
-- [**Dictionary Methods**](./codes/builtins/dictionary-methods.ipynb)
+- [**Numbers Methods**](./code/builtins/list-methods.ipynb)
+- [**String Methods**](./code/builtins/string-methods.ipynb)
+- [**List Methods**](./code/builtins/list-methods.ipynb)
+- [**Tuple Methods**](./code/builtins/tuple-methods.ipynb)
+- [**Set Methods**](./code/builtins/set-methods.ipynb)
+- [**Dictionary Methods**](./code/builtins/dictionary-methods.ipynb)
 
 ## 📋 Prerequisites
 
@@ -85,7 +85,7 @@ This project was developed using Python **v3.12.3**. If you encounter issues, co
 
 ### 📝 List of Dependencies
 
-Installing these dependencies is **OPTIONAL**. They are used exclusively in the [**Dependencies Notebook**](./codes/14-dependencies.ipynb) to demonstrate how to import and manage dependencies effectively.
+Installing these dependencies is **OPTIONAL**. They are used exclusively in the [**Dependencies Notebook**](./code/14-dependencies.ipynb) to demonstrate how to import and manage dependencies effectively.
 
 [![matplotlib](https://img.shields.io/badge/matplotlib-3.9.1-green)](https://pypi.org/project/matplotlib/3.9.1/)
 [![numpy](https://img.shields.io/badge/numpy-1.26.4-orange)](https://pypi.org/project/numpy/1.26.4/)
