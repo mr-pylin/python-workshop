@@ -81,7 +81,7 @@ Understand the Singleton Design Pattern for ensuring a class has only one instan
 
 ## ⚙️ Setup
 
-This project was developed using Python **v3.12.3**. If you encounter issues, consider using this specific Python version.
+This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.12.3**. If you encounter issues, consider using this specific Python version.
 
 ### 📝 List of Dependencies
 
