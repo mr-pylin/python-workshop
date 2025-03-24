@@ -14,52 +14,29 @@ Comprehensive **Python** Workshop: **Mastering** Fundamentals and Advanced Techn
 
 ### 📖 Main Notebooks
 
-1. [**Introduction to Python**](./code/01-introduction-to-python.ipynb)  
-A beginner-friendly introduction to Python, its features, and basic syntax.
-1. [**Data Structures**](./code/02-data-structures.ipynb)  
-Explore essential data structures like `int`, `float`, `list`, `tuple`, `dictionary`, and `set`.
-1. [**Index and Slice**](./code/03-index-&-slice.ipynb)  
-Learn how to access and manipulate elements of sequences using indexing and slicing.
-1. [**Operators and Operands**](./code/04-operator-&-operand.ipynb)  
-Study various operators (arithmetic, comparison, logical, etc.) and how they work with operands.
-1. [**Type Conversions**](./code/05-type-conversion.ipynb)  
-Understand how to convert data types in Python with explicit and implicit conversions.
-1. [**Conditional Statements**](./code/06-conditional-statements.ipynb)  
-Learn about `if-elif-else` and `match-case` statements for controlling the flow of your programs.
-1. [**Loops**](./code/07-loops.ipynb)  
-Master loops (`for`, `while`) to iterate over sequences and perform repeated tasks.
-1. [**Functions**](./code/08-functions.ipynb)  
-Understand how to define and use functions, including parameters and return values.
-1. [**Built-In Functions**](./code/09-built-in-functions.ipynb)  
-Explore Python's powerful built-in functions and how to leverage them in your programs.
-1. [**Namespaces and Scopes**](./code/10-namespace-&-scope.ipynb)  
-Learn about namespaces and scope resolution to avoid name conflicts in your code.
-1. [**Anonymous Functions (Lambda)**](./code/11-anonymous-functions.ipynb)  
-Discover the usage of `lambda` expressions for creating small, anonymous functions.
-1. [**Pack and Unpack Data**](./code/12-pack-unpack.ipynb)  
-Learn how to pack multiple values into a variable and unpack them in Python.
-1. [**Type Hints and Docstrings**](./code/13-type-hints-and-docstrings.ipynb)  
-Understand how to improve code readability with type hints and document your functions with docstrings.
-1. [**Dependencies**](./code/14-dependencies.ipynb)  
-Learn how to manage and install dependencies using `pip` and `requirements.txt` and use them in your code.
-1. [**Comprehensions**](./code/15-comprehensions.ipynb)  
-Master `list`, `set`, `dictionary`, and `generator` comprehensions for concise and readable code.
-1. [**Introduction to Object-Oriented Programming (OOP)**](./code/16-introduction-to-oop.ipynb)  
-Get introduced to the basic concepts of object-oriented programming in Python.
-1. [**Closures and Decorators**](./code/17-closure-decorator.ipynb)  
-Learn about closures and how to use decorators for enhancing functions.
-1. [**Object-Oriented Programming Concepts**](./code/18-oop-concepts.ipynb)  
-Explore core OOP concepts such as *encapsulation*, *inheritance*, *polymorphism*, and *abstraction*.
-1. [**Context Managers**](./code/19-context-managers.ipynb)  
-Learn to manage resources efficiently using `with` statements and defining custom context managers.
-1. [**Special Methods**](./code/20-special-methods.ipynb)  
-Discover Python's dunder (double underscore) methods for creating custom behavior in your classes.
-1. [**Errors and Exceptions**](./code/21-errors-and-exceptions.ipynb)  
-Learn about handling errors and exceptions to make your code more robust.
-1. [**Meta Classes**](./code/22-meta-classes.ipynb)  
-Dive into metaclasses to understand how classes in Python are created and customized.
-1. [**Singleton Design**](./code/23-singleton-design.ipynb)  
-Understand the Singleton Design Pattern for ensuring a class has only one instance, with examples in Python.
+1. [**Introduction to Python**](./code/01-introduction-to-python.ipynb)
+1. [**Data Structures**](./code/02-data-structures.ipynb)
+1. [**Index and Slice**](./code/03-index-&-slice.ipynb)
+1. [**Operators and Operands**](./code/04-operator-&-operand.ipynb)
+1. [**Type Conversions**](./code/05-type-conversion.ipynb)
+1. [**Conditional Statements**](./code/06-conditional-statements.ipynb)
+1. [**Loops**](./code/07-loops.ipynb)
+1. [**Functions**](./code/08-functions.ipynb)
+1. [**Built-In Functions**](./code/09-built-in-functions.ipynb)
+1. [**Namespaces and Scopes**](./code/10-namespace-&-scope.ipynb)
+1. [**Anonymous Functions (Lambda)**](./code/11-anonymous-functions.ipynb)
+1. [**Pack and Unpack Data**](./code/12-pack-unpack.ipynb)
+1. [**Type Hints and Docstrings**](./code/13-type-hints-and-docstrings.ipynb)
+1. [**Dependencies**](./code/14-dependencies.ipynb)
+1. [**Comprehensions**](./code/15-comprehensions.ipynb)
+1. [**Introduction to Object-Oriented Programming (OOP)**](./code/16-introduction-to-oop.ipynb)
+1. [**Closures and Decorators**](./code/17-closure-decorator.ipynb)
+1. [**Object-Oriented Programming Concepts**](./code/18-oop-concepts.ipynb)
+1. [**Context Managers**](./code/19-context-managers.ipynb)
+1. [**Special Methods**](./code/20-special-methods.ipynb)
+1. [**Errors and Exceptions**](./code/21-errors-and-exceptions.ipynb)
+1. [**Meta Classes**](./code/22-meta-classes.ipynb)
+1. [**Singleton Design**](./code/23-singleton-design.ipynb)
 
 ### 📖 Built-in Methods
 
@@ -96,21 +73,14 @@ Installing `matplotlib`, `numpy`, `pandas`, and `torch` is **OPTIONAL**. They ar
 
 ### 📦 Install Dependencies
 
-#### 📦 Method 1: Poetry (Recommended)
+#### 📦 Method 1: Poetry (**Recommended** ✅)
 
-Use [**Poetry**](https://python-poetry.org/) for dependency management. It handles dependencies, virtual environments, and locking versions more efficiently than pip. To install dependencies using Poetry:
+Use [**Poetry**](https://python-poetry.org/) for dependency management. It handles dependencies, virtual environments, and locking versions more efficiently than pip.  
+To install exact dependency versions specified in [**poetry.lock**](./poetry.lock) for consistent environments **without** installing the current project as a package:
 
-- **Option 1 [Recommended]**: Install exact dependency versions specified in [**poetry.lock**](./poetry.lock) for consistent environments:
-
-  ```bash
-  poetry install
-  ```
-
-- **Option 2**: Install the latest compatible dependency versions from [**pyproject.toml**](./pyproject.toml) and regenerate the [**poetry.lock**](./poetry.lock) file:
-
-  ```bash
-  poetry install --no-root
-  ```
+```bash
+poetry install --no-root
+```
 
 #### 📦 Method 2: Pip
 
@@ -119,40 +89,6 @@ Install all dependencies listed in [**requirements.txt**](./requirements.txt) us
 ```bash
 pip install -r requirements.txt
 ```
-
-#### 🌐 Connection Issues
-
-If you encounter connection issues during installation, you can try extending the **timeout** and increasing the number of **retries** with the following:
-
-- **For Poetry**: Use the following command to set the retries and timeout directly in the terminal **before running the install**:
-  - **Windows**:
-    - **PowerShell**:
-
-      ```bash
-      $env:POETRY_HTTP_TIMEOUT=300
-      $env:POETRY_HTTP_RETRIES=10
-      ```
-
-    - **Command Prompt**:
-
-      ```bash
-      set POETRY_HTTP_TIMEOUT=300
-      set POETRY_HTTP_RETRIES=10
-      ```
-
-  - **Linux/macOS**:
-    - **Terminal**:
-
-      ```bash
-      export POETRY_HTTP_TIMEOUT=300
-      export POETRY_HTTP_RETRIES=10
-      ```
-
-- **For Pip**: Use the `--retries` and `--timeout` flags directly in your pip command:
-
-  ```bash
-  pip install -r requirements.txt --retries 10 --timeout 300
-  ```
 
 ### 🛠️ Usage Instructions
 
@@ -195,11 +131,15 @@ If you encounter connection issues during installation, you can try extending th
 - **Data Visualization**
   - A comprehensive collection of Python libraries for creating static, animated, and interactive visualizations: **Matplotlib**, **Seaborn**, and **Plotly**.
   - Official sites: [matplotlib.org](https://matplotlib.org/) | [seaborn.pydata.org](https://seaborn.pydata.org/) | [plotly.com](https://plotly.com/)
-  - My MatPlotLib Workshop: [github.com/mr-pylin/data-visualization-workshop](https://github.com/mr-pylin/data-visualization-workshop)
+  - My Data Visualization Workshop: [github.com/mr-pylin/data-visualization-workshop](https://github.com/mr-pylin/data-visualization-workshop)
 - **PyTorch**
   - An open-source **machine learning** library for Python developed by [**Meta AI**](https://ai.meta.com/), used for applications such as **deep learning** and **neural networks**.
   - Official site: [pytorch.org](https://pytorch.org/)
   - My PyTorch Workshop: [github.com/mr-pylin/pytorch-workshop](https://github.com/mr-pylin/pytorch-workshop)
+- **Media Processing**
+  - A comprehensive resource to explore media processing, from fundamental concepts to advanced techniques.
+  - Official sites: [opencv.org](https://opencv.org/) | [scikit-image.org](https://scikit-image.org/) | [scipy.org](https://scipy.org/)
+  - My Media Processing Workshop: [github.com/mr-pylin/media-processing-workshop](https://github.com/mr-pylin/media-processing-workshop)
 
 ## 🔍 Find Me
 
@@ -212,9 +152,9 @@ I look forward to connecting with you! 🏃‍♂️
 ## 📄 License
 
 This project is licensed under the **[Apache License 2.0](./LICENSE)**.  
-You are free to use, modify, and distribute this code, but you must include copies of both the [**LICENSE**](./LICENSE) and [**NOTICE**](./NOTICE) files in any distribution of your work.
+You are free to **use**, **modify**, and **distribute** this code, but you **must** include copies of both the [**LICENSE**](./LICENSE) and [**NOTICE**](./NOTICE) files in any distribution of your work.
 
-### ✍️ Additional Licensing Information
+### ©️ Copyright Information
 
 - **SVG Images**:
   - The SVG images located in the [./assets/images/svgs/](./assets/images/svgs/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/svgs/LICENSE)**.
