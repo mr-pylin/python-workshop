@@ -1,35 +1,46 @@
-[tool.poetry]
-package-mode = false
-name = "python_workshop"
+[project]
+name = "python-workshop"
+version = "0.1.0"
+authors = [
+    {name = "Amirhossein Heydari", email = "amirhosseinheydari78@gmail.com"}
+]
+maintainers = [
+    {name = "Amirhossein Heydari", email = "amirhosseinheydari78@gmail.com"}
+]
 description = "Comprehensive Python Workshop: Mastering Fundamentals and Advanced Techniques"
-authors = ["Amirhossein Heydari <amirhosseinheydari78@gmail.com>"]
-maintainers = ["Amirhossein Heydari <amirhosseinheydari78@gmail.com>"]
-license = "Apache-2.0"
-repository = "https://github.com/mr-pylin/python-workshop"
 keywords = ["Python", "programming", "software development", "tutorials"]
 readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.13.7"
 
+[project.optional-dependencies]
+complete = [
+    "matplotlib>=3.10.6,<4.0.0",
+    "numpy>=2.3.2,<3.0.0",
+    "pandas>=2.3.2,<3.0.0",
+    "torch==2.8.0"
+]
 
-[tool.poetry.urls]
-"Amirhossein Heydari Homepage" = "https://mr-pylin.github.io"
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1,<7.0.0",
+    # "ipywidgets>=8.1.7,<9.0.0",
+]
 
-[tool.poetry.dependencies]
-python = "3.12.8"
-ipykernel = "^6.29.5"
-ipywidgets = "^8.1.5"
-matplotlib = "^3.10.0"
-numpy = "^2.2.1"
-pandas = "^2.2.3"
-torch = { version = "2.5.1", source = "pytorch" }
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu", extra = "complete" },
+]
 
-[[tool.poetry.source]]
-name = "pytorch"
+[[tool.uv.index]]
+name = "pytorch-cpu"
 url = "https://download.pytorch.org/whl/cpu"
-priority = "supplemental"
+explicit = true
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[project.urls]
+Repository = "https://github.com/mr-pylin/python-workshop"
+MyHomepage = "https://mr-pylin.github.io"
 
 [tool.black]
 line-length = 120
