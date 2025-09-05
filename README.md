@@ -159,6 +159,6 @@ You are free to **use**, **modify**, and **distribute** this code, but you **mus
 
 ### ©️ Copyright Information
 
-- **SVG Images**:
-  - The SVG images located in the [./assets/images/svgs/](./assets/images/svgs/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/svgs/LICENSE)**.
+- **Original Images**:
+  - The images located in the [./assets/images/original/](./assets/images/original/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/original/LICENSE)**.
   - Note: This license restricts derivative works, meaning you may share these images but cannot modify them.
