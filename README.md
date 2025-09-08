@@ -78,18 +78,18 @@ Installing `matplotlib`, `numpy`, `pandas`, and `torch` is **OPTIONAL**. They ar
 - Use [**uv**](https://docs.astral.sh/uv/) for dependency management. It handles dependencies, virtual environments, and locking versions more efficiently than pip.  
 - To install exact dependency versions specified in [**uv.lock**](./uv.lock) for consistent environments **without** installing the current project as a package:
 
-```bash
-  uv sync --no-install-project                   # Install only numpy
-  uv sync --no-install-project --extra complete  # Install numpy + optional dependencies
-```
+  ```bash
+    uv sync --no-install-project                   # Install only numpy
+    uv sync --no-install-project --extra complete  # Install numpy + optional dependencies
+  ```
 
 #### 📦 Method 2: Pip
 
 - Install all dependencies listed in [**requirements.txt**](./requirements.txt) using [**pip**](https://pip.pypa.io/en/stable/installation/):
 
-```bash
-pip install -r requirements.txt
-```
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 - **Note**: The [**requirements.txt**](./requirements.txt) includes complete installation of dependencies. Comment `matplotlib`, `numpy`, `pandas`, and `torch` in order to skip [**Dependencies**](./code/14-dependencies.ipynb) section`.
 
@@ -126,23 +126,23 @@ pip install -r requirements.txt
 - **NumPy**
   - A fundamental package for scientific computing in Python, providing support for **arrays**, **matrices**, and a large collection of **mathematical functions**.
   - Official site: [numpy.org](https://numpy.org/)
-  - My NumPy Workshop: [github.com/mr-pylin/numpy-workshop](https://github.com/mr-pylin/numpy-workshop)
+  - My NumPy Workshop: [**github.com/mr-pylin/numpy-workshop**](https://github.com/mr-pylin/numpy-workshop)
 - **Pandas**
   - A powerful, open-source data analysis and manipulation library for Python.
   - Official site: [pandas.pydata.org](https://pandas.pydata.org/)
-  - My Pandas Workshop: [Coming Soon](https://github.com/mr-pylin/#)
+  - My Pandas Workshop: [**Coming Soon**](https://github.com/mr-pylin/#)
 - **Data Visualization**
   - A comprehensive collection of Python libraries for creating static, animated, and interactive visualizations: **Matplotlib**, **Seaborn**, and **Plotly**.
   - Official sites: [matplotlib.org](https://matplotlib.org/) | [seaborn.pydata.org](https://seaborn.pydata.org/) | [plotly.com](https://plotly.com/)
-  - My Data Visualization Workshop: [github.com/mr-pylin/data-visualization-workshop](https://github.com/mr-pylin/data-visualization-workshop)
+  - My Data Visualization Workshop: [**github.com/mr-pylin/data-visualization-workshop**](https://github.com/mr-pylin/data-visualization-workshop)
 - **PyTorch**
   - An open-source **machine learning** library for Python developed by [**Meta AI**](https://ai.meta.com/), used for applications such as **deep learning** and **neural networks**.
   - Official site: [pytorch.org](https://pytorch.org/)
-  - My PyTorch Workshop: [github.com/mr-pylin/pytorch-workshop](https://github.com/mr-pylin/pytorch-workshop)
+  - My PyTorch Workshop: [**github.com/mr-pylin/pytorch-workshop**](https://github.com/mr-pylin/pytorch-workshop)
 - **Media Processing**
   - A comprehensive resource to explore media processing, from fundamental concepts to advanced techniques.
   - Official sites: [opencv.org](https://opencv.org/) | [scikit-image.org](https://scikit-image.org/) | [scipy.org](https://scipy.org/)
-  - My Media Processing Workshop: [github.com/mr-pylin/media-processing-workshop](https://github.com/mr-pylin/media-processing-workshop)
+  - My Media Processing Workshop: [**github.com/mr-pylin/media-processing-workshop**](https://github.com/mr-pylin/media-processing-workshop)
 
 ## 🔍 Find Me
 
