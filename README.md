@@ -160,5 +160,5 @@ You are free to **use**, **modify**, and **distribute** this code, but you **mus
 ### ©️ Copyright Information
 
 - **Original Images**:
-  - The images located in the [./assets/images/original/](./assets/images/original/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/original/LICENSE)**.
-  - Note: This license restricts derivative works, meaning you may share these images but cannot modify them.
+  - The images located in the [**./assets/images/original/**](./assets/images/original/) folder are licensed under the **[CC BY-ND 4.0](./assets/images/original/LICENSE)**.
+  - The images located in the [**assets/images/python/**](./assets/images/python/) folder are sourced from the [**Python Software Foundation**](https://www.python.org/community/logos/) and are protected under the [**PSF Trademark Usage Policy**](https://www.python.org/psf/trademarks/).
