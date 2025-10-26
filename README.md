@@ -1,7 +1,7 @@
 # 🐍 Python Workshop
 
 [![License](https://img.shields.io/github/license/mr-pylin/python-workshop?color=blue)](https://github.com/mr-pylin/python-workshop/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.13.7-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
+[![Python Version](https://img.shields.io/badge/Python-3.14.0-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c727d7eddc9e42b680c269ab50d628a9)](https://app.codacy.com/gh/mr-pylin/python-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 ![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/python-workshop?color=lightblue)
@@ -64,12 +64,11 @@ This project requires Python **v3.10** or higher. It was developed and tested us
 
 Installing `matplotlib`, `numpy`, `pandas`, and `torch` is **OPTIONAL**. They are used exclusively in the [**Dependencies Notebook**](./code/14-dependencies.ipynb) to demonstrate how to import and manage dependencies effectively.
 
-[![ipykernel](https://img.shields.io/badge/ipykernel-6.30.1-ff69b4)](https://pypi.org/project/ipykernel/6.30.1/)
-[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.6-green)](https://pypi.org/project/matplotlib/3.10.6/)
-[![numpy](https://img.shields.io/badge/numpy-2.3.2-orange)](https://pypi.org/project/numpy/2.3.2/)
-[![pandas](https://img.shields.io/badge/pandas-2.3.2-yellow)](https://pypi.org/project/pandas/2.3.2/)
-[![torch](https://img.shields.io/badge/torch-2.8.0-gold)](https://pytorch.org/)
-<!-- [![ipywidgets](https://img.shields.io/badge/ipywidgets-8.1.5-ff6347)](https://pypi.org/project/ipywidgets/8.1.5/) -->
+[![ipykernel](https://img.shields.io/badge/ipykernel-7.0.1-ff69b4)](https://pypi.org/project/ipykernel/7.0.1/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-3.10.7-green)](https://pypi.org/project/matplotlib/3.10.7/)
+[![numpy](https://img.shields.io/badge/numpy-2.3.4-orange)](https://pypi.org/project/numpy/2.3.4/)
+[![pandas](https://img.shields.io/badge/pandas-2.3.3-yellow)](https://pypi.org/project/pandas/2.3.3/)
+[![torch](https://img.shields.io/badge/torch-2.9.0-gold)](https://pytorch.org/)
 
 ### 📦 Install Dependencies
 
