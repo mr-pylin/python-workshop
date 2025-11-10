@@ -1,7 +1,7 @@
 # 🐍 Python Workshop
 
 [![License](https://img.shields.io/github/license/mr-pylin/python-workshop?color=blue)](https://github.com/mr-pylin/python-workshop/blob/main/LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.14.0-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3137/)
+[![Python Version](https://img.shields.io/badge/Python-3.14.0-yellow?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3140/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c727d7eddc9e42b680c269ab50d628a9)](https://app.codacy.com/gh/mr-pylin/python-workshop/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Code Style](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/psf/black)
 ![Repo Size](https://img.shields.io/github/repo-size/mr-pylin/python-workshop?color=lightblue)
