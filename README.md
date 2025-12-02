@@ -14,7 +14,7 @@ Comprehensive **Python** Workshop: **Mastering** Fundamentals and Advanced Techn
 
 ### 📖 Main Notebooks
 
-1. [**Introduction to Python**](./code/01-introduction-to-python.ipynb)
+1. [**Introduction to Python**](./code/01-introduction.ipynb)
 1. [**Data Structures**](./code/02-data-structures.ipynb)
 1. [**Index and Slice**](./code/03-index-&-slice.ipynb)
 1. [**Operators and Operands**](./code/04-operator-&-operand.ipynb)
