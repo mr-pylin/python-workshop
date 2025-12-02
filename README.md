@@ -40,7 +40,7 @@ Comprehensive **Python** Workshop: **Mastering** Fundamentals and Advanced Techn
 
 ### 📖 Built-in Methods
 
-- [**Numbers Methods**](./code/builtins/list-methods.ipynb)
+- [**Numbers Methods**](./code/builtins/number-methods.ipynb)
 - [**String Methods**](./code/builtins/string-methods.ipynb)
 - [**List Methods**](./code/builtins/list-methods.ipynb)
 - [**Tuple Methods**](./code/builtins/tuple-methods.ipynb)
@@ -58,11 +58,13 @@ Comprehensive **Python** Workshop: **Mastering** Fundamentals and Advanced Techn
 
 ## ⚙️ Setup
 
-This project requires Python **v3.10** or higher. It was developed and tested using Python **v3.12.8**. If you encounter issues, consider using this specific Python version.
+This project requires Python **v3.10** or higher. It is regularly maintained and was **most recently tested** with Python **v3.14.0**. If you encounter issues, consider using this specific Python version.
 
 ### 📝 List of Dependencies
 
-Installing `matplotlib`, `numpy`, `pandas`, and `torch` is **OPTIONAL**. They are used exclusively in the [**Dependencies Notebook**](./code/14-dependencies.ipynb) to demonstrate how to import and manage dependencies effectively.
+Installing `matplotlib`, `numpy`, `pandas`, and `torch` is **OPTIONAL**. They are used exclusively in the [**Dependencies Notebook**](./code/14-dependencies.ipynb) to demonstrate how to import and manage dependencies effectively.  
+The version badges below indicate the **versions that were used and tested** when this project was last updated.  
+You may use newer versions as long as they remain compatible.
 
 [![ipykernel](https://img.shields.io/badge/ipykernel-7.0.1-ff69b4)](https://pypi.org/project/ipykernel/7.0.1/)
 [![matplotlib](https://img.shields.io/badge/matplotlib-3.10.7-green)](https://pypi.org/project/matplotlib/3.10.7/)
