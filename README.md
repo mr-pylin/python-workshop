@@ -16,7 +16,7 @@ Comprehensive **Python** Workshop: **Mastering** Fundamentals and Advanced Techn
 
 1. [**Introduction to Python**](./code/01-introduction.ipynb)
 1. [**Data Structures**](./code/02-data-structures.ipynb)
-1. [**Index and Slice**](./code/03-index-&-slice.ipynb)
+1. [**Index and Slice**](./code/03-sequence-operations.ipynb)
 1. [**Operators and Operands**](./code/04-operator-&-operand.ipynb)
 1. [**Type Conversions**](./code/05-type-conversion.ipynb)
 1. [**Conditional Statements**](./code/06-conditional-statements.ipynb)
