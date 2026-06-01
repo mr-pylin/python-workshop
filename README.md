@@ -140,10 +140,10 @@ You may use newer versions as long as they remain compatible.
   - An open-source **machine learning** library for Python developed by [**Meta AI**](https://ai.meta.com/), used for applications such as **deep learning** and **neural networks**.
   - Official site: [pytorch.org](https://pytorch.org/)
   - My PyTorch Workshop: [**github.com/mr-pylin/pytorch-workshop**](https://github.com/mr-pylin/pytorch-workshop)
-- **Media Processing**
-  - A comprehensive resource to explore media processing, from fundamental concepts to advanced techniques.
+- **Image Processing**
+  - A comprehensive resource to explore image processing, from fundamental concepts to advanced techniques.
   - Official sites: [opencv.org](https://opencv.org/) | [scikit-image.org](https://scikit-image.org/) | [scipy.org](https://scipy.org/)
-  - My Media Processing Workshop: [**github.com/mr-pylin/media-processing-workshop**](https://github.com/mr-pylin/media-processing-workshop)
+  - My Image Processing Workshop: [**github.com/mr-pylin/image-processing-workshop**](https://github.com/mr-pylin/image-processing-workshop)
 
 ## 🔍 Find Me
 
