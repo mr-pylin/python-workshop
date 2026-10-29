@@ -12,21 +12,21 @@ keywords = ["Python", "programming", "software development", "tutorials"]
 readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE", "assets/images/original/LICENSE"]
-requires-python = ">=3.14.0"
+requires-python = ">=3.15.1"
 dependencies = [
-    "ipykernel>=7.0.1,<8.0.0",
+    "ipykernel>=7.4.0,<8.0.0",
 ]
 
 [project.optional-dependencies]
-complete = [
-    "matplotlib>=3.10.7,<4.0.0",
-    "numpy>=2.3.4,<3.0.0",
-    "pandas>=2.3.3,<3.0.0",
-    "torch==2.9.0",
+full = [
+    "matplotlib>=3.11.2,<4.0.0",
+    "numpy>=2.5.4,<3.0.0",
+    "pandas>=3.1.0,<4.0.0",
+    "torch==2.15.0",
 ]
 
 [tool.uv.sources]
-torch = [{ index = "pytorch-cpu", extra = "complete" }]
+torch = [{ index = "pytorch-cpu", extra = "full" }]
 
 [[tool.uv.index]]
 name = "pytorch-cpu"
